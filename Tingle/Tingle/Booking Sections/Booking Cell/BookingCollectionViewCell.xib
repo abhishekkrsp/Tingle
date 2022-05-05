@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="BookingCollectionViewCell" id="gTV-IL-0wX" customClass="BookingCollectionViewCell" customModule="Tingle" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="285" height="115"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="285" height="115"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7:30 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfb-2N-fQJ">
+                        <rect key="frame" x="20" y="9.5" width="86.5" height="26.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swift Programming Meeting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jy6-Jh-V8Z">
+                        <rect key="frame" x="20" y="34" width="199.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNa-87-B7J">
+                        <rect key="frame" x="100" y="79" width="85" height="31"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="filled" title="Book">
+                            <color key="baseBackgroundColor" red="0.38152208748792171" green="0.11076217107687093" blue="0.54115714629491163" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </buttonConfiguration>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seats remaining: 12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j5a-mO-nHd">
+                        <rect key="frame" x="20" y="60" width="116" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="i0V-fo-pmC">
+                        <rect key="frame" x="150.5" y="12.5" width="20" height="19"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Jy6-Jh-V8Z" firstAttribute="leading" secondItem="dfb-2N-fQJ" secondAttribute="leading" id="147-lb-TZy"/>
+                <constraint firstItem="i0V-fo-pmC" firstAttribute="leading" secondItem="dfb-2N-fQJ" secondAttribute="trailing" constant="44" id="6uR-4T-36K"/>
+                <constraint firstItem="j5a-mO-nHd" firstAttribute="top" secondItem="Jy6-Jh-V8Z" secondAttribute="bottom" constant="8" id="Hrp-01-lZx"/>
+                <constraint firstItem="Jy6-Jh-V8Z" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="RRV-KJ-6VZ"/>
+                <constraint firstItem="Jy6-Jh-V8Z" firstAttribute="top" secondItem="i0V-fo-pmC" secondAttribute="bottom" constant="2" id="So8-oY-I6H"/>
+                <constraint firstItem="j5a-mO-nHd" firstAttribute="top" secondItem="dfb-2N-fQJ" secondAttribute="bottom" constant="24" id="T6v-kE-kcA"/>
+                <constraint firstItem="NNa-87-B7J" firstAttribute="top" secondItem="Jy6-Jh-V8Z" secondAttribute="bottom" constant="27" id="Yal-3Q-Dsx"/>
+                <constraint firstItem="NNa-87-B7J" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="100" id="e2e-Zn-cIa"/>
+                <constraint firstItem="Jy6-Jh-V8Z" firstAttribute="leading" secondItem="j5a-mO-nHd" secondAttribute="leading" id="eln-T6-RjK"/>
+                <constraint firstAttribute="trailing" secondItem="NNa-87-B7J" secondAttribute="trailing" constant="100" id="nrX-yy-MQg"/>
+                <constraint firstAttribute="bottom" secondItem="NNa-87-B7J" secondAttribute="bottom" constant="5" id="xfb-gk-8Bo"/>
+            </constraints>
+            <size key="customSize" width="285" height="115"/>
+            <point key="canvasLocation" x="306.52173913043481" y="134.26339285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="person.circle" catalog="system" width="128" height="121"/>
+    </resources>
+</document>
