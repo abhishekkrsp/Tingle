@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		823C09702823E86200C64311 /* BookingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 823C09692823E86200C64311 /* BookingCollectionViewCell.xib */; };
+		823C09712823E86200C64311 /* BookingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823C096A2823E86200C64311 /* BookingCollectionViewCell.swift */; };
+		823C09722823E86200C64311 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823C096B2823E86200C64311 /* Main.storyboard */; };
+		823C09732823E86200C64311 /* BookingSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823C096E2823E86200C64311 /* BookingSectionHeader.swift */; };
+		823C09742823E86200C64311 /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823C096F2823E86200C64311 /* BookingViewController.swift */; };
+		823C09782823E99D00C64311 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823C09762823E99D00C64311 /* DashboardViewController.swift */; };
+		823C09792823E99D00C64311 /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823C09772823E99D00C64311 /* DashboardTableViewCell.swift */; };
+		823C097B2823E9E500C64311 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823C097A2823E9E500C64311 /* Event.swift */; };
 		EFB1E5132823E4CA00D4992A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB1E5122823E4CA00D4992A /* AppDelegate.swift */; };
 		EFB1E5152823E4CA00D4992A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB1E5142823E4CA00D4992A /* SceneDelegate.swift */; };
-		EFB1E5172823E4CA00D4992A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB1E5162823E4CA00D4992A /* ViewController.swift */; };
-		EFB1E51A2823E4CA00D4992A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB1E5182823E4CA00D4992A /* Main.storyboard */; };
 		EFB1E51C2823E4CB00D4992A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB1E51B2823E4CB00D4992A /* Assets.xcassets */; };
 		EFB1E51F2823E4CB00D4992A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB1E51D2823E4CB00D4992A /* LaunchScreen.storyboard */; };
 		EFB1E52A2823E4CC00D4992A /* TingleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB1E5292823E4CC00D4992A /* TingleTests.swift */; };
@@ -36,11 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		823C09692823E86200C64311 /* BookingCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookingCollectionViewCell.xib; sourceTree = "<group>"; };
+		823C096A2823E86200C64311 /* BookingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingCollectionViewCell.swift; sourceTree = "<group>"; };
+		823C096C2823E86200C64311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		823C096E2823E86200C64311 /* BookingSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingSectionHeader.swift; sourceTree = "<group>"; };
+		823C096F2823E86200C64311 /* BookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		823C09762823E99D00C64311 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		823C09772823E99D00C64311 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		823C097A2823E9E500C64311 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		EFB1E50F2823E4CA00D4992A /* Tingle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tingle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB1E5122823E4CA00D4992A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFB1E5142823E4CA00D4992A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EFB1E5162823E4CA00D4992A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EFB1E5192823E4CA00D4992A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFB1E51B2823E4CB00D4992A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFB1E51E2823E4CB00D4992A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFB1E5202823E4CB00D4992A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +88,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		823C09672823E86200C64311 /* Booking Sections */ = {
+			isa = PBXGroup;
+			children = (
+				823C09682823E86200C64311 /* Booking Cell */,
+				823C096D2823E86200C64311 /* Booking Resuable View */,
+				823C096F2823E86200C64311 /* BookingViewController.swift */,
+			);
+			path = "Booking Sections";
+			sourceTree = "<group>";
+		};
+		823C09682823E86200C64311 /* Booking Cell */ = {
+			isa = PBXGroup;
+			children = (
+				823C09692823E86200C64311 /* BookingCollectionViewCell.xib */,
+				823C096A2823E86200C64311 /* BookingCollectionViewCell.swift */,
+			);
+			path = "Booking Cell";
+			sourceTree = "<group>";
+		};
+		823C096D2823E86200C64311 /* Booking Resuable View */ = {
+			isa = PBXGroup;
+			children = (
+				823C096E2823E86200C64311 /* BookingSectionHeader.swift */,
+			);
+			path = "Booking Resuable View";
+			sourceTree = "<group>";
+		};
+		823C09752823E98C00C64311 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				823C09772823E99D00C64311 /* DashboardTableViewCell.swift */,
+				823C09762823E99D00C64311 /* DashboardViewController.swift */,
+				823C097A2823E9E500C64311 /* Event.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
 		EFB1E5062823E4CA00D4992A = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +148,11 @@
 		EFB1E5112823E4CA00D4992A /* Tingle */ = {
 			isa = PBXGroup;
 			children = (
+				823C09752823E98C00C64311 /* Dashboard */,
+				823C09672823E86200C64311 /* Booking Sections */,
 				EFB1E5122823E4CA00D4992A /* AppDelegate.swift */,
 				EFB1E5142823E4CA00D4992A /* SceneDelegate.swift */,
-				EFB1E5162823E4CA00D4992A /* ViewController.swift */,
-				EFB1E5182823E4CA00D4992A /* Main.storyboard */,
+				823C096B2823E86200C64311 /* Main.storyboard */,
 				EFB1E51B2823E4CB00D4992A /* Assets.xcassets */,
 				EFB1E51D2823E4CB00D4992A /* LaunchScreen.storyboard */,
 				EFB1E5202823E4CB00D4992A /* Info.plist */,
@@ -232,8 +282,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFB1E51F2823E4CB00D4992A /* LaunchScreen.storyboard in Resources */,
+				823C09722823E86200C64311 /* Main.storyboard in Resources */,
 				EFB1E51C2823E4CB00D4992A /* Assets.xcassets in Resources */,
-				EFB1E51A2823E4CA00D4992A /* Main.storyboard in Resources */,
+				823C09702823E86200C64311 /* BookingCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +309,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFB1E5172823E4CA00D4992A /* ViewController.swift in Sources */,
+				823C097B2823E9E500C64311 /* Event.swift in Sources */,
 				EFB1E5132823E4CA00D4992A /* AppDelegate.swift in Sources */,
+				823C09782823E99D00C64311 /* DashboardViewController.swift in Sources */,
+				823C09712823E86200C64311 /* BookingCollectionViewCell.swift in Sources */,
 				EFB1E5152823E4CA00D4992A /* SceneDelegate.swift in Sources */,
+				823C09742823E86200C64311 /* BookingViewController.swift in Sources */,
+				823C09732823E86200C64311 /* BookingSectionHeader.swift in Sources */,
+				823C09792823E99D00C64311 /* DashboardTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,10 +353,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EFB1E5182823E4CA00D4992A /* Main.storyboard */ = {
+		823C096B2823E86200C64311 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EFB1E5192823E4CA00D4992A /* Base */,
+				823C096C2823E86200C64311 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
