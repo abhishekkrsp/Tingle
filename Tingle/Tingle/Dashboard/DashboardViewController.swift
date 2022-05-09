@@ -32,15 +32,23 @@ class DashboardViewController: UIViewController {
         ])
     }
     
-    //    private func setupNav() {
-    //        navigationItem.title = "Dashboard"
-    //        navigationItem.titleView?.tintColor = .systemBlue
-    //    }
+    private func setupNav() {
+        let button: UIButton = UIButton(type: UIButton.ButtonType.custom)
+        button.setImage(UIImage(named: "profile"), for: UIControl.State.normal)
+        button.widthAnchor.constraint(equalTo: button.heightAnchor).isActive = true
+        button.layer.cornerRadius = 20
+        button.clipsToBounds = true
+        button.addTarget(self, action: #selector(profileTapped), for: .touchUpInside)
+        let barButton = UIBarButtonItem(customView: button)
+        self.navigationItem.rightBarButtonItem = barButton
+        
+    }
+    
     override func loadView() {
         super.loadView()
         setupUI()
         setupConstraint()
-        //        setupNav()
+        setupNav()
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,6 +56,9 @@ class DashboardViewController: UIViewController {
         tableView.dataSource = self
         tableView.register(DashboardTableViewCell.self, forCellReuseIdentifier: "cell")
         
+    }
+    @objc func profileTapped() {
+        performSegue(withIdentifier: "profileSegue", sender: nil)
     }
 }
 
