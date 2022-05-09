@@ -122,10 +122,29 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Dashboard" image="homekit" catalog="system" id="vJx-4s-bZz"/>
                     <navigationItem key="navigationItem" title="Dashboard" id="tVI-Aq-DF1"/>
+                    <connections>
+                        <segue destination="QsY-Mg-znE" kind="show" identifier="profileSegue" id="EAn-HY-3VQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XUe-vC-QzH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3217.3913043478265" y="97.767857142857139"/>
+        </scene>
+        <!--ProfileVC-->
+        <scene sceneID="W3E-Z1-sKx">
+            <objects>
+                <viewController id="QsY-Mg-znE" customClass="ProfileVC" customModule="Tingle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vur-8h-QeU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="C8u-4Y-Nur"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Rcv-W7-9Yv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MDF-4t-i9A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3217" y="875"/>
         </scene>
         <!--Item-->
         <scene sceneID="27N-Vr-bkW">

@@ -15,6 +15,7 @@
 		823C09782823E99D00C64311 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823C09762823E99D00C64311 /* DashboardViewController.swift */; };
 		823C09792823E99D00C64311 /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823C09772823E99D00C64311 /* DashboardTableViewCell.swift */; };
 		823C097B2823E9E500C64311 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823C097A2823E9E500C64311 /* Event.swift */; };
+		82723440282923020068CABD /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272343F282923020068CABD /* ProfileVC.swift */; };
 		EFB1E5132823E4CA00D4992A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB1E5122823E4CA00D4992A /* AppDelegate.swift */; };
 		EFB1E5152823E4CA00D4992A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB1E5142823E4CA00D4992A /* SceneDelegate.swift */; };
 		EFB1E51C2823E4CB00D4992A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB1E51B2823E4CB00D4992A /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		823C09762823E99D00C64311 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		823C09772823E99D00C64311 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
 		823C097A2823E9E500C64311 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		8272343F282923020068CABD /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		EFB1E50F2823E4CA00D4992A /* Tingle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tingle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB1E5122823E4CA00D4992A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFB1E5142823E4CA00D4992A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,14 @@
 			path = Dashboard;
 			sourceTree = "<group>";
 		};
+		8272343E282922E80068CABD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8272343F282923020068CABD /* ProfileVC.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		EFB1E5062823E4CA00D4992A = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +158,7 @@
 		EFB1E5112823E4CA00D4992A /* Tingle */ = {
 			isa = PBXGroup;
 			children = (
+				8272343E282922E80068CABD /* Profile */,
 				823C09752823E98C00C64311 /* Dashboard */,
 				823C09672823E86200C64311 /* Booking Sections */,
 				EFB1E5122823E4CA00D4992A /* AppDelegate.swift */,
@@ -312,6 +323,7 @@
 				823C097B2823E9E500C64311 /* Event.swift in Sources */,
 				EFB1E5132823E4CA00D4992A /* AppDelegate.swift in Sources */,
 				823C09782823E99D00C64311 /* DashboardViewController.swift in Sources */,
+				82723440282923020068CABD /* ProfileVC.swift in Sources */,
 				823C09712823E86200C64311 /* BookingCollectionViewCell.swift in Sources */,
 				EFB1E5152823E4CA00D4992A /* SceneDelegate.swift in Sources */,
 				823C09742823E86200C64311 /* BookingViewController.swift in Sources */,
@@ -508,7 +520,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = learning.abhishek.Tingle;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -536,7 +548,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = learning.abhishek.Tingle;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
